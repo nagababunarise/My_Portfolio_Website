@@ -1,0 +1,653 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap");
+
+/* <-----------Navbar container source code -------> */
+
+#nav-background {
+  background-color: black;
+  padding-right: 200px;
+  padding-left: 100px;
+  position: fixed;
+  width: 100%;
+}
+
+@media screen and (max-width: 1200px) {
+  #nav-background {
+    padding-left: 10px;
+    padding-right: 0;
+  }
+}
+
+#nav-word1 {
+  color: #be3144;
+  font-weight: 700;
+  font-family: bree serif;
+  font-size: 20px;
+  padding-right: 20px;
+  padding-left: 20px;
+  letter-spacing: 1px;
+  transform: 0.3s;
+}
+
+#nav-word1:hover {
+  color: #8a8b8b;
+}
+
+#nav-word2 {
+  color: #be3144;
+  font-weight: 700;
+  font-family: bree serif;
+  font-size: 20px;
+  padding-right: 20px;
+  padding-left: 20px;
+  letter-spacing: 1px;
+  transform: 0.3s;
+}
+
+#nav-word2:hover {
+  color: #8a8b8b;
+}
+
+#nav-word3 {
+  color: #be3144;
+  font-weight: 700;
+  font-family: bree serif;
+  font-size: 20px;
+  padding-right: 20px;
+  padding-left: 20px;
+  letter-spacing: 1px;
+  transform: 0.3s;
+}
+
+#nav-word3:hover {
+  color: #8a8b8b;
+}
+
+#nav-word4 {
+  color: #be3144;
+  font-weight: 700;
+  font-family: bree serif;
+  font-size: 20px;
+  padding-right: 20px;
+  padding-left: 20px;
+  letter-spacing: 1px;
+  transform: 0.3s;
+}
+
+#nav-word4:hover {
+  color: #8a8b8b;
+}
+
+#nav-word5 {
+  color: #be3144;
+  font-weight: 700;
+  font-family: bree serif;
+  font-size: 20px;
+  padding-right: 20px;
+  padding-left: 20px;
+  letter-spacing: 1px;
+  transform: 0.3s;
+}
+
+#nav-word5:hover {
+  color: #8a8b8b;
+}
+#nav-word6 {
+  color: #be3144;
+  font-weight: 700;
+  font-family: bree serif;
+  font-size: 20px;
+  padding-right: 20px;
+  padding-left: 20px;
+  letter-spacing: 1px;
+  transform: 0.3s;
+}
+
+#nav-word6:hover {
+  color: #8a8b8b;
+}
+
+#nav-bar-card {
+  margin-left: auto;
+}
+
+#hamburger-icon {
+  background-color: #be3144;
+}
+
+/* <-------------Home container source code--------->*/
+
+.home-container {
+  background-color: #000000;
+  padding: 20px;
+  padding-bottom: 150px;
+  height: 100%;
+  padding-top: 100px;
+}
+
+@media screen and (max-width: 798px) {
+  .home-container {
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+.home-heading {
+  color: #be3144;
+  font-size: 25px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-weight: 600;
+}
+
+.home-description {
+  color: #5c5470;
+  font-size: 40px;
+  font-weight: 700;
+  letter-spacing: 2px;
+}
+
+@media screen and (max-width: 798px) {
+  .home-description {
+    font-size: 30px;
+  }
+}
+
+.home-button {
+  color: rgb(14, 13, 13);
+  height: 35px;
+  border: 0;
+  background-color: #5c5470;
+  font-weight: 700;
+  padding: 5px;
+  margin-bottom: 10px;
+  width: 140px;
+}
+.home-button:hover {
+  box-shadow: 0px 0px 3px 3px red;
+  transform: scale(1.2);
+  transition: 0.4s;
+}
+
+.profile-img {
+  min-height: 200px;
+  min-width: 200px;
+  border-color: white;
+  margin: 20px;
+  order: 1;
+  border-radius: 100%;
+}
+
+@media screen and (max-width: 798px) {
+  .profile-img {
+    order: 0;
+    margin-bottom: 40px;
+    margin-top: 40px;
+  }
+}
+
+.home-responsive {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  padding-top: 100px;
+}
+
+@media screen and (max-width: 798px) {
+  .home-responsive {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+.home-content-card {
+  order: 0;
+}
+
+@media screen and (max-width: 798px) {
+  .home-content-card {
+    order: 1;
+    align-items: center;
+  }
+}
+
+.contact-icon {
+  color: #be3144;
+  background-color: black;
+  height: 40px;
+  width: 40px;
+  border-radius: 100%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.contact-icon:hover {
+  color: white;
+  transform: scale(1.2);
+  transition: 0.4s;
+}
+
+@media screen and(max-width:798px) {
+  .contact-icon {
+    height: 30px;
+    width: 30px;
+  }
+}
+
+/* <----------------------About container source code ------------------> */
+
+.about-container {
+  background-color: #262627;
+  height: 100%;
+  padding-top: 160px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding-bottom: 140px;
+}
+
+.about-content-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  max-width: 60%;
+}
+
+.about-heading {
+  color: #b9b4c7;
+  font-weight: 700;
+  font-size: 32px;
+  letter-spacing: 3px;
+  padding-bottom: 10px;
+}
+
+.about-description {
+  color: #b9b4c7;
+  font-weight: 25px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  max-width: 90%;
+  padding-bottom: 100px;
+}
+
+@media screen and (max-width: 1200) {
+  .about-description {
+    padding-bottom: 150px;
+  }
+}
+
+/* <-----------------------Skills container source code ----------------------> */
+
+.skills-container {
+  background-color: black;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 50px;
+  padding-top: 150px;
+  padding-bottom: 160px;
+}
+
+.skills-heading {
+  color: #be3144;
+  font-weight: 700;
+  font-size: 35px;
+  letter-spacing: 3px;
+  padding-bottom: 50px;
+  text-align: center;
+}
+
+.span1 {
+  font-size: 50px;
+  color: rgb(252, 252, 0);
+  font-weight: bold;
+  font-family: bree serif;
+}
+
+.skill-icons-card {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
+.icon-content-card {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  background-color: #5c5470;
+  border-style: solid;
+  border-width: 0.5px;
+  padding: 5px;
+  border-radius: 20px;
+  margin: 20px;
+  min-width: 250px;
+}
+
+#icon-props {
+  height: 35px;
+  width: 35px;
+  margin: 5px;
+}
+
+.icon-name {
+  color: white;
+  margin: 5px;
+  font-family: system-ui;
+  font-weight: 700;
+  letter-spacing: 1px;
+  font-size: 15px;
+}
+
+/* <------------------------------------icons background properties source code -------------------------------------> */
+
+.html-bg {
+  background-color: #092635;
+  color: aliceblue;
+}
+
+.html-name {
+  color: #eee0c9;
+}
+
+.css-bg {
+  background-color: #5f6f52;
+  color: #ffe3bb;
+}
+
+.css-name {
+  color: #e1e6f1;
+}
+
+.js-bg {
+  background-color: #427d9d;
+  color: #d0a2f7;
+}
+
+.python-bg {
+  background-color: #005b41;
+  color: #3774e6;
+}
+
+.bt-bg {
+  background-color: #2e4374;
+  color: #ffd0d0;
+}
+
+.font-bg {
+  background-color: #219c90;
+  color: #ecee81;
+}
+
+.sql-bg {
+  background-color: #331d2c;
+  color: #f31559;
+}
+
+.node-bg {
+  background-color: #f5e660;
+  color: white;
+}
+
+.express-bg {
+  background-color: #f7acaf;
+  color: #3f2e3e;
+}
+
+.react-bg {
+  background-color: #374259;
+  color: white;
+}
+
+.command-bg {
+  background-color: #f266ab;
+  color: green;
+}
+
+.figma-bg {
+  background-color: #1c1e1f;
+  color: yellow;
+}
+
+.github-bg {
+  color: white;
+}
+
+.npm-bg {
+  background-color: #427d9d;
+  color: #750e21;
+}
+
+/* <----------------------------This is the project container css code ------------------------------------>*/
+
+.portfolio-container {
+  background-color: #262627;
+  height: 100%;
+  padding-top: 150px;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+@media screen and (max-width: 1200px) {
+  .portfolio-container {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
+.portfolio-heading {
+  color: #b9b4c7;
+  font-weight: 700;
+  font-size: 50px;
+  letter-spacing: 10px;
+  padding-bottom: 100px;
+  text-align: center;
+}
+.responsive-project-card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.project-image-card {
+  min-height: 250px;
+  max-width: 400px;
+  min-width: 400px;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+}
+
+.project-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: transparent;
+  align-items: center;
+  max-width: 400px;
+  height: 90%;
+  max-height: 800px;
+  margin: 30px;
+  border-color: #b6bbc4;
+  padding-bottom: 10px;
+  box-shadow: 10px 10px 10px 10px inset rgb(255, 253, 253);
+  box-shadow: 0px 5px 10px 5px rgb(14, 13, 13);
+  border-radius: 20px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: rgb(82, 81, 81);
+}
+.project-content:hover {
+  box-shadow: 2px 2px 2px 2px rgb(250, 68, 68);
+}
+
+.project-name {
+  color: #eef5ff;
+  font-family: "Roboto";
+  font-weight: 600;
+  letter-spacing: 1px;
+  padding: 10px;
+  font-size: 28px;
+}
+
+.project-para {
+  color: #b6bbc4;
+  font-weight: 600;
+  letter-spacing: 1px;
+  padding-left: 10px;
+}
+
+#link-icons {
+  color: #f05941;
+  height: 30px;
+  width: 30px;
+  margin: 10px;
+  background-color: #b0a695;
+  border-radius: 100%;
+}
+#link-icons:hover {
+  box-shadow: 5px 5px 5px 5px white;
+}
+.more-repos-container {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.button-more {
+  background-color: transparent;
+  border-radius: 5px;
+  color: #ffffff;
+  height: 45px;
+  width: 140px;
+  font-weight: 700;
+  font-size: 20px;
+  margin: 20px;
+  padding: 5px;
+}
+.button-more:hover {
+  transform: scale(1.1);
+  transition: 0.9s;
+  box-shadow: 1px 1px 2px 2px rgb(248, 101, 101);
+}
+/* contact container css code */
+
+.contact-container {
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 100px;
+  padding-left: 80px;
+  padding-right: 80px;
+}
+.form-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 100px;
+}
+.contact-heading {
+  color: rgb(238, 50, 50);
+  font-size: 40px;
+  letter-spacing: 3px;
+  padding-bottom: 30px;
+  font-weight: 700;
+}
+.name {
+  height: 50px;
+  width: 400px;
+  margin: 20px;
+  padding: 5px;
+  font-weight: 600;
+  font-size: 18px;
+  border-radius: 5px;
+}
+.gmail {
+  height: 50px;
+  width: 400px;
+  margin: 20px;
+  padding: 5px;
+  font-weight: 600;
+  font-size: 18px;
+  border-radius: 5px;
+}
+.message {
+  width: 400px;
+  min-height: 200px;
+  margin: 20px;
+  padding: 5px;
+  font-weight: 600;
+  border-radius: 5px;
+}
+.send-button {
+  background-color: #04f510;
+  color: white;
+  height: 40px;
+  padding: 5px;
+  font-weight: 600;
+  font-size: 20px;
+  letter-spacing: 1px;
+  width: 120px;
+  border: 0;
+  border-radius: 5px;
+}
+.send-button:hover {
+  box-shadow: 1px 1px 2px 2px rgb(61, 240, 45);
+  transform: scale(1.1);
+  transition: 0.8s;
+}
+/* footer container css code goes here */
+
+.footer-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 50px;
+  padding-bottom: 30px;
+  background-color: #262627;
+  height: 100%;
+}
+#mail-icon {
+  height: 26px;
+  width: 26px;
+  margin: 10px;
+  color: rgb(170, 167, 167);
+}
+.mail-name {
+  font-size: 20px;
+  padding-top: 10px;
+  color: rgb(160, 158, 158);
+  font-family: cursive;
+}
+.mail-responsive {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer-icons {
+  height: 50px;
+  width: 50px;
+  margin: 10px;
+}
+.footer-icons-git {
+  height: 50px;
+  width: 50px;
+  margin: 10px;
+  background-color: white;
+  border-radius: 100%;
+}
+.copy-right-line {
+  color: rgb(211, 208, 208);
+  font-weight: 500;
+  letter-spacing: 1px;
+  font-family: Roboto;
+  padding-top: 10px;
+}
