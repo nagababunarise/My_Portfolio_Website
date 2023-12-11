@@ -128,6 +128,7 @@
   .home-container {
     justify-content: center;
     align-items: center;
+    flex-direction:column;
     padding-left:20px;
     padding-right:20px;
   }
@@ -495,6 +496,12 @@
 .project-content:hover {
   box-shadow: 2px 2px 2px 2px rgb(250, 68, 68);
 }
+@media screen and (max-width:798px){
+  .project-content{
+    margin-left:10px;
+    margin-right:10px;
+  }
+}
 
 .project-name {
   color: #eef5ff;
@@ -568,6 +575,12 @@
   justify-content: center;
   align-items: center;
   margin-bottom: 100px;
+}
+@media screen and (max-width:798px){
+  .form-container{
+    margin-left:20px;
+    margin-right:20px;
+  }
 }
 .contact-heading {
   color: rgb(238, 50, 50);
