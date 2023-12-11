@@ -168,11 +168,12 @@
 }
 
 .profile-img {
-  min-height: 200px;
-  min-width: 200px;
+  height: 200px;
+  width: 200px;
   border-color: white;
   margin: 20px;
   order: 1;
+  border-style:solid;
   border-radius: 100%;
 }
 
