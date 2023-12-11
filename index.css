@@ -475,8 +475,9 @@
 }
 @media screen and (max-width:798px){
   .project-image-card{
-    width:380px;
+    width:90%;
     height:200px;
+    position:center;
   }
 }
 
