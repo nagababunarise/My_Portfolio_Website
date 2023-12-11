@@ -1,7 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap");
 
 /* <-----------Navbar container source code -------> */
-
+*{
+box-sizing:border-box;
+}
 #nav-background {
   background-color: black;
   padding-right: 200px;
@@ -131,6 +133,7 @@
     flex-direction:column;
     padding-left:10px;
     padding-right:10px;
+    padding-bottom:50px;
   }
 }
 
@@ -171,8 +174,8 @@
 }
 
 .profile-img {
-  height: 200px;
-  width: 200px;
+  height: 220px;
+  width: 220px;
   border-color: white;
   margin: 20px;
   order: 1;
@@ -184,8 +187,8 @@
   .profile-img {
     order: 0;
     margin:30px
-    height:50%;
-    width:50%;
+    height:180px;
+    width:180px;
   }
 }
 
@@ -475,9 +478,10 @@
 }
 @media screen and (max-width:798px){
   .project-image-card{
-    width:90%;
+    width:380;
     height:200px;
     position:center;
+    margin:10px;
   }
 }
 
