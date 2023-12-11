@@ -478,10 +478,11 @@ box-sizing:border-box;
 }
 @media screen and (max-width:798px){
   .project-image-card{
-    width:380px;
+    width:50%;
     height:200px;
     position:center;
     margin:10px;
+    stretch
   }
 }
 
