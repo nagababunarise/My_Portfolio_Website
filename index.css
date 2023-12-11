@@ -174,8 +174,8 @@ box-sizing:border-box;
 }
 
 .profile-img {
-  height: 220px;
-  width: 220px;
+  height: 250px;
+  width: 250px;
   border-color: white;
   margin: 20px;
   order: 1;
@@ -187,8 +187,8 @@ box-sizing:border-box;
   .profile-img {
     order: 0;
     margin:30px
-    height:180px;
-    width:180px;
+    height:200px;
+    width:200px;
   }
 }
 
@@ -450,8 +450,8 @@ box-sizing:border-box;
 }
 @media screen and (max-width: 798px) {
   .portfolio-container {
-    padding-left: 20px;
-    padding-right: 20px;
+    padding-left:10px;
+    padding-right:10px;
   }
 }
 .portfolio-heading {
@@ -597,6 +597,7 @@ box-sizing:border-box;
   padding:20px;
   border-color:white;
   border-width:1px;
+  border-radius:10px;
 }
 @media screen and (max-width:798px){
   .form-container{
@@ -717,6 +718,7 @@ box-sizing:border-box;
   letter-spacing: 1px;
   font-family: Roboto;
   padding-top: 10px;
+  text-align:center;
 }
 @media screen and (max-width:798px){
   .copy-right-line{
