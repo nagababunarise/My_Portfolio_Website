@@ -129,8 +129,8 @@
     justify-content: center;
     align-items: center;
     flex-direction:column;
-    padding-left:20px;
-    padding-right:20px;
+    padding-left:10px;
+    padding-right:10px;
   }
 }
 
@@ -183,8 +183,7 @@
 @media screen and (max-width: 798px) {
   .profile-img {
     order: 0;
-    margin-bottom: 40px;
-    margin-top: 40px;
+    margin:30px
     height:50%;
     width:50%;
   }
@@ -203,6 +202,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    display:flex;
   }
 }
 
@@ -473,6 +473,12 @@
   border-top-right-radius: 10px;
   border-top-left-radius: 10px;
 }
+@media screen and (max-width:798px){
+  .project-image-card{
+    width:380px;
+    height:200px;
+  }
+}
 
 .project-content {
   display: flex;
@@ -500,6 +506,9 @@
   .project-content{
     margin-left:10px;
     margin-right:10px;
+    width:80%;
+    height:100%;
+    
   }
 }
 
@@ -598,6 +607,11 @@
   font-size: 18px;
   border-radius: 5px;
 }
+@media screen and (max-width:798px){
+  .name{
+    width:90%;
+  }
+}
 .gmail {
   height: 50px;
   width: 400px;
@@ -607,6 +621,11 @@
   font-size: 18px;
   border-radius: 5px;
 }
+@media screen and (max-width:798px){
+  .gmail{
+    width:90%;
+  }
+}
 .message {
   width: 400px;
   min-height: 200px;
@@ -614,6 +633,11 @@
   padding: 5px;
   font-weight: 600;
   border-radius: 5px;
+}
+@media screen and (max-width:798px){
+  .message{
+    width:90%;
+  }
 }
 .send-button {
   background-color: #04f510;
