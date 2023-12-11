@@ -478,7 +478,7 @@ box-sizing:border-box;
 }
 @media screen and (max-width:798px){
   .project-image-card{
-    width:380;
+    width:380px;
     height:200px;
     position:center;
     margin:10px;
