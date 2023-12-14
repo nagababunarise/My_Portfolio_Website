@@ -179,15 +179,14 @@ box-sizing:border-box;
   border-color: white;
   margin: 20px;
   order: 1;
-  border-style:solid;
   border-radius: 100%;
+  opacity:1;
 }
 
 @media screen and (max-width: 798px) {
   .profile-img {
-    order: 0;
     margin:30px;
-    height:250px;
+    height:300px;
     width:300px;
   }
 }
