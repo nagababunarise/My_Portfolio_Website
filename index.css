@@ -186,9 +186,9 @@ box-sizing:border-box;
 @media screen and (max-width: 798px) {
   .profile-img {
     order: 0;
-    margin:30px
-    height:200px;
-    width:220px;
+    margin:30px;
+    height:250px;
+    width:300px;
   }
 }
 
