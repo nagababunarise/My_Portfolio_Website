@@ -4,6 +4,9 @@
 *{
 box-sizing:border-box;
 }
+html{
+  scroll-behavior:smooth;
+}
 #nav-background {
   background-color: black;
   padding-right: 200px;
