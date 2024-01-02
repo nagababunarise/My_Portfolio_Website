@@ -503,10 +503,12 @@ html{
   box-shadow: 0px 5px 10px 5px rgb(14, 13, 13);
   border-radius: 20px;
   border-style: solid;
-  max-width:50%;
+ width:80%;
+  height:auto;
   border-width: 1px;
   border-color: rgb(82, 81, 81);
   overflow:hidden;
+  object-fit:cover;
 }
 .project-content:hover {
   box-shadow: 2px 2px 2px 2px rgb(250, 68, 68);
@@ -518,6 +520,7 @@ html{
     width:80%;
     height:100%;
      overflow:hidden;
+    object-fit:cover;
     
   }
 }
