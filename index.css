@@ -550,6 +550,7 @@ html{
   border-radius: 100%;
   display:inline-block;
   margin-top:auto;
+  gap:50px;
 }
 #link-icons:hover {
   box-shadow: 5px 5px 5px 5px white;
