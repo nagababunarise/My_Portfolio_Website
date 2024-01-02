@@ -537,6 +537,8 @@ html{
   font-weight: 600;
   letter-spacing: 1px;
   padding-left: 10px;
+  overflow:hidden;
+  width:300px;
 }
 
 #link-icons {
